@@ -23,7 +23,6 @@ http.createServer((request, response) =>{
                     response.writeHead(200, {"Content-Type": "text/css"});
                 else
                     response.writeHead(200, {"Content-Type": "text/html"});
-                // Contenido del cuerpo de la respuesta
                 response.write(data);
             }
             response.end();
