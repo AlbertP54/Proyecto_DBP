@@ -1,0 +1,38 @@
+html, body{
+  height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../imgs/background_index.jpg");
+  
+    /* Set a specific height */
+    height: 100%;
+    width: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+  }
+
+.custom-cursor{
+  cursor:url(imgs/cursor.png), auto;
+}
+
+#brand-name{
+  font-family: 'Syncopate' !important;
+  font-size: 80px;
+  
+}
+
+#brand-name span{
+  background-color: white;
+}
+
+#pokeballs{
+  margin-right: 0px;
+}

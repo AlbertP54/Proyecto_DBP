@@ -1,0 +1,29 @@
+@import 'styles/index.css';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Syncopate&display=swap');
+
+html{
+    font-family: 'Open Sans';
+
+}
+
+
+.center{
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .pokeball{
+    height: 50px;
+    width: 50px;
+  }
+
+  .pokemon{
+      height: auto;
+      width: 150px;
+      margin-top: -300px; 
+      margin-left: 300px;
+  }
