@@ -1,0 +1,60 @@
+@import '../style.css';
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+html, body{
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../imgs/background_ericka.jpg");
+  
+    /* Set a specific height */
+    height: 100%;
+    width: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+  }
+
+  .cv{
+      background-color: white;
+      width: 1000px;
+      height: 550px;
+  }
+
+  #bar{
+      background-color: #5851ef;
+      width: 1000px; 
+      height: 50px;
+  }
+
+  .container{
+      border: 1px solid transparent;
+  }
+
+  #content{
+      font-family: 'VT323';
+      font-size:23px;
+  }
+
+  .fas{
+      font-size: 40px;
+      color: white;
+      padding: 5px;
+  }
+
+  .enfasis{
+      color: #b18800;
+      font-weight: 300;
+  }
+
+  #eevee{
+      margin-left: 85%;
+      margin-top: -20%;
+  }
