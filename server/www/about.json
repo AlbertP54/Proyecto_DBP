@@ -1,0 +1,50 @@
+{
+    "servidor": "PokeTech",
+    "equipo": [
+        {
+            "name":"Ericka", 
+            "lastName": "Bermúdez",
+            "desc": "Licenciada en Administración de Tecnologías, estudiante de Ciencias de la Computación, llevo 6 años sin tiempo libre",
+            "photo": "imgs/ericka.png",
+            "habilities": [["Python", 70], ["Typescript", 60], ["Java", 50], ["English", 100], ["Japanse", 30], ["Korean", 20], ["French", 30]],
+            "git": "https://github.com/ErickaBermudez",
+            "playing": ["Genshin Impact", "League of Legends"]
+        },
+        {
+            "name":"Marcela", 
+            "lastName": "",
+            "desc": "",
+            "photo": "",
+            "habilities": [],
+            "git": "",
+            "playing": []
+        },
+        {
+            "name":"Roberto", 
+            "lastName": "",
+            "desc": "",
+            "photo": "",
+            "habilities": [],
+            "git": "",
+            "playing": []
+        },
+        {
+            "name":"", 
+            "lastName": "Payán",
+            "desc": "",
+            "photo": "",
+            "habilities": [],
+            "git": "",
+            "playing": []
+        },
+        {
+            "name":"Lulú", 
+            "lastName": "",
+            "desc": "",
+            "photo": "",
+            "habilities": [],
+            "git": "",
+            "playing": []
+        }
+    ]
+}
