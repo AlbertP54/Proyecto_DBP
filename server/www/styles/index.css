@@ -25,13 +25,13 @@ html, body{
 
 
 #brand-name{
-  font-family: 'Syncopate' !important;
-  font-size: 80px;
-  
+  font-family: 'Press Start 2P' !important;
+  font-size: 25px;  
 }
 
 #brand-name span{
-  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
 }
 
 #pokeballs{
@@ -44,6 +44,52 @@ html, body{
 
 }
 
-.pokemon:hover{
+.pokemon:hover, #brand-name:hover, .team:hover{
   cursor:url(../imgs/mini-cursor-hover.png), auto;
+}
+
+.title{
+  font-family: 'Press Start 2P';
+  font-size: 120px;
+  line-height: 90%;
+}
+
+section{
+  margin-top: 200px;
+  width: 99%;
+}
+
+#poketech span{
+  background-color: #97e94f;
+}
+
+#about span{
+  background-color: #31adee;
+}
+
+.team{
+  width: 200px;
+  height: auto;
+}
+
+.name{
+  font-family: 'Press Start 2P';
+  font-size: 14px;
+  width: 200px;
+}
+
+#ericka-name{
+  visibility: hidden;
+}
+
+#ericka-img:hover #ericka-name{
+  visibility: visible;
+}
+
+#roberto-name{
+  visibility: hidden;
+}
+
+#roberto-img:hover #roberto-name{
+  visibility: visible;
 }

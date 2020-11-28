@@ -1,9 +1,9 @@
 @import 'styles/index.css';
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Syncopate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Press+Start+2P&family=Syncopate&display=swap');
 
-html{
-    font-family: 'Open Sans';
-
+body{
+  font-family: 'Barlow Condensed';
+  font-size: 25px;
 }
 
 
@@ -19,5 +19,33 @@ html{
   .pokeball{
     height: 50px;
     width: 50px;
+  }
+
+
+  /** tooltips **/
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
   }
 

@@ -18,6 +18,28 @@ $(function () {
 
 });
 
+// function to change background colors of "start game" option
+$(function () {
+    let backgrounds = [['#9fec5b', '#48ad40'], ['#fecd81', '#ae7b65'], ['#75e5d9', '#588aab'], 
+    ['#de7273', '#d04e65'], ['#ffb35f', '#e36e49'], ['#ed78e5', '#8749b2']];
+    let opt = randomInteger(0, backgrounds.length - 1);
+    let background_color = backgrounds[opt][0];
+    let border = "5px solid " + backgrounds[opt][1];
+    $('#brand-name span').css("background-color", background_color);
+    $('#brand-name span').css("border", border);
+
+});
+
+function goPoke(){
+    location.href = '#poketech';
+}
+
+$(document).on('keypress',function(e) {
+    if(e.which == 13) {
+        goPoke();
+    }
+});
+
 function randomInteger(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
