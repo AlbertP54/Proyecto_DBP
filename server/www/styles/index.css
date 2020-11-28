@@ -19,9 +19,10 @@ html, body{
     
   }
 
-.custom-cursor{
-  cursor:url(imgs/cursor.png), auto;
+.cursor{
+  cursor:url(../imgs/mini-cursor.png), auto;
 }
+
 
 #brand-name{
   font-family: 'Syncopate' !important;
@@ -35,4 +36,15 @@ html, body{
 
 #pokeballs{
   margin-right: 0px;
+}
+
+.pokemon{
+  height: auto;
+  width: 150px;
+  margin-top: -20%; 
+  margin-left: 20%;
+}
+
+.pokemon:hover{
+  cursor:url(../imgs/mini-cursor-hover.png), auto;
 }
