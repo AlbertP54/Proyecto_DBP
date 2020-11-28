@@ -41,8 +41,7 @@ html, body{
 .pokemon{
   height: auto;
   width: 150px;
-  margin-top: -20%; 
-  margin-left: 20%;
+
 }
 
 .pokemon:hover{
