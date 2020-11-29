@@ -1,7 +1,7 @@
 const http = require('http');
 const fs = require('fs');
 const log4js = require('log4js');
-const about = require('./WWW/about.json');
+const about = require('./www/about.json');
 
 const logger = log4js.getLogger();
 logger.level = 'debug';
@@ -15,7 +15,7 @@ http.createServer((request, response) => {
             response.writeHead(200, { "Content-Type": "application/json" });
             response.write(JSON.stringify(about));
         } else {
-            const file = request.url == '/' ? './WWW/index.html' : `./WWW${request.url}`;
+            const file = request.url == '/' ? './www/index.html' : `./www${request.url}`;
             fs.readFile(file, (err, data) => {
                 if (err) {
                     response.writeHead(404, { "Content-Type": "text/html" });
