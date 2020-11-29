@@ -12,12 +12,12 @@
         },
         {
             "name":"Marcela", 
-            "lastName": "",
-            "desc": "",
-            "photo": "",
-            "habilities": [],
-            "git": "",
-            "playing": []
+            "lastName": "Barrera",
+            "desc": "Estudiante de Ciencias de la Computacion",
+            "photo": "imgs/marce.jpeg",
+            "habilities": [["Javascript", 60],["C#",50],["Typescript",40], ["English",100]],
+            "git": "https://github.com/marcebarrera",
+            "playing": ["League of Legends", "Zelda: BOTW"]
         },
         {
             "name":"Roberto", 
