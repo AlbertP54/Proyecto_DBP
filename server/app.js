@@ -6,6 +6,8 @@ const about = require('./www/about.json');
 const logger = log4js.getLogger();
 logger.level = 'debug';
 
+const port = process.env.PORT || 4000;
+
 http.createServer((request, response) => {
 
     if (request.url) {
@@ -37,4 +39,4 @@ http.createServer((request, response) => {
         }
 
     }
-}).listen(4000);
+}).listen(port);
