@@ -80,18 +80,11 @@ section{
   width: 200px;
 }
 
-#ericka-name{
+#employee-name{
   visibility: hidden;
 }
 
-#ericka-img:hover #ericka-name{
+#employee-img:hover #employee-name{
   visibility: visible;
 }
 
-#roberto-name{
-  visibility: hidden;
-}
-
-#roberto-img:hover #roberto-name{
-  visibility: visible;
-}
