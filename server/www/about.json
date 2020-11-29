@@ -21,12 +21,12 @@
         },
         {
             "name":"Roberto", 
-            "lastName": "",
-            "desc": "",
-            "photo": "",
-            "habilities": [],
-            "git": "",
-            "playing": []
+            "lastName": "Nava",
+            "desc": "Actual estudiante de la carrera de Ciencias de la computacion,y deportista de alto rendimiento",
+            "photo": "imgs/roberto.png",
+            "habilities": [["C/C++",80],["HTML",50],["Java",50],["English",100],["French",25],["Japanese",20],["Martial Arts",100]],
+            "git": "https://github.com/robertonava10",
+            "playing": ["Minecraft"]
         },
         {
             "name":"", 
