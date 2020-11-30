@@ -61,14 +61,6 @@ section{
   width: 99%;
 }
 
-#poketech span{
-  background-color: #97e94f;
-}
-
-#about span{
-  background-color: #31adee;
-}
-
 .team{
   width: 200px;
   height: auto;
@@ -86,5 +78,30 @@ section{
 
 #employee-img:hover #employee-name{
   visibility: visible;
+}
+
+.highlight-blue {
+  background-color: #5ec6ff;
+}
+
+.highlight-green{
+  background-color: #beff5d;
+}
+
+.highlight-red{
+  background-color: #ff8383;
+}
+
+a{
+  text-decoration: underline;
+  color: #a87b68;
+}
+
+a:hover{
+  color: #fb9a53;
+}
+
+.k{
+  border: 2px solid blueviolet;
 }
 

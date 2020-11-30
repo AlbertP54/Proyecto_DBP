@@ -16,6 +16,7 @@ http.createServer((request, response) => {
         if (request.url == '/about') {
             response.writeHead(200, { "Content-Type": "application/json" });
             response.write(JSON.stringify(about));
+            response.end();
         } else {
             const file = request.url == '/' ? './www/index.html' : `./www${request.url}`;
             fs.readFile(file, (err, data) => {
@@ -39,4 +40,4 @@ http.createServer((request, response) => {
         }
 
     }
-}).listen(port);
+}).listen(port); 
