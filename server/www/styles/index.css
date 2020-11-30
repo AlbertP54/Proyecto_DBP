@@ -101,17 +101,17 @@ a:hover{
   color: #fb9a53;
 }
 
-.k{
-  border: 2px solid blueviolet;
-}
-
 .phone-title{
   font-family: 'Press Start 2P';
   font-size: 20px;
   width: 100%;
 }
 
-@media only screen and (min-width: 360px) {
+.phone-info{
+  display: none;
+}
+
+@media only screen and (max-width: 450px) {
   .info{
     display: none;
   }
