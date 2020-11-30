@@ -38,13 +38,13 @@
             "playing": []
         },
         {
-            "name":"Lulú", 
-            "lastName": "",
-            "desc": "",
-            "photo": "",
-            "habilities": [],
-            "git": "",
-            "playing": []
+            "name":"Luz de Lourdes", 
+            "lastName": "Olague Ibarrola",
+            "desc": "Estudiante de la carrera de Ciencias de la computación que ama apovechar cualquier oportunidad en la programación para poder crear apps y páginas coloridas y aesthetics",
+            "photo": "imgs/lulu.png",
+            "habilities": [["C/C++",80], ["HTML",80],["Javascript", 60],["Dart/flutter", 60],["Kotlin", 60], ["English", 100], ["French", 60], ["Crying over fictional characters", 10000]],
+            "git": "https://github.com/NixEndy",
+            "playing": ["Dark Souls 3"]
         }
     ]
 }

@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "bootstrap": "^4.5.3",
     "log4js": "^6.3.0"
   },
   "name": "server",
