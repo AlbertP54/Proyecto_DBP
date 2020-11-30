@@ -1,0 +1,81 @@
+@import '../style.css';
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+html, body{
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../imgs/fondo_roberto.jpg");
+  
+    /* Set a specific height */
+    height: 100%;
+    width: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+  }
+
+  .cv{
+      background-color: rgba(0, 128, 0, 0.5);
+      width: 1000px;
+      height: 550px;
+      border: outset;
+      border-color: burlywood;
+      border-width: 8px;
+  }
+
+  #bar{
+      background-color: burlywood;
+      width: 989px; 
+      height: 30px;
+  }
+
+  .container{
+      border: 1px solid transparent;
+  }
+
+  #content{
+      font-family:'Nerko One', cursive;;
+      font-size:23px;
+      color: cornsilk;
+  }
+
+  .fas{
+      font-size: 50px;
+      color: white;
+      padding: 5px;
+  }
+
+  .enfasis{
+      color:goldenrod;
+      font-weight: 350;
+  }
+  #lol{
+    width: 350px;
+    height: 350px;
+    margin-left: -90%;
+    margin-top: -10%;
+
+  }
+  #lolxd{
+    width: 350px;
+    height: 350px;
+    margin-left: -25%;
+    margin-top: -150%;
+
+  }
+  
+  #eevee{
+      width: 350px;
+      height: 350px;
+      margin-left: 60%;
+      margin-top: -40%;
+  }
