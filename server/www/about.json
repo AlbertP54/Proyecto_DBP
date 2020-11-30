@@ -29,22 +29,22 @@
             "playing": ["Minecraft"]
         },
         {
-            "name":"", 
+            "name":"Alberto", 
             "lastName": "Payán",
-            "desc": "",
-            "photo": "",
-            "habilities": [],
-            "git": "",
-            "playing": []
+            "desc": "Estudiante de ingenieria en Ciencias de la computacion y practicante de piano",
+            "photo": "imgs/alberto.png",
+            "habilities": [["C/C++",80],["C#",40],["Python",40],["Java",60],["English",80],["Piano",75],["Spanish",80]],
+            "git": "https://github.com/AlbertP54",
+            "playing": ["Resident evil 2 remake","Resident evil 3 remake"]
         },
         {
             "name":"Lulú", 
-            "lastName": "",
-            "desc": "",
-            "photo": "",
-            "habilities": [],
-            "git": "",
-            "playing": []
+            "lastName": "Olague Ibarrola",
+            "desc": "Estudiante de la carrera de Ciencias de la computacion que ama aprovechar cualquier oportunidad en la programacion para poder crear apps y paginas coloridas y aesthetics",
+            "photo": "imgs/lulu.jpeg",
+            "habilities": [["C/C++",80],["HTML",80],["Javascript",60],["Dart/Fluter",60],["Kotlin",60],["English",100],["French",60],["Crying over fictional characters",10000]],
+            "git": "https://github.com/NixEndy",
+            "playing": ["Dark Souls 3"]
         }
     ]
 }
