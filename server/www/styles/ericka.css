@@ -1,4 +1,4 @@
-@import '../style.css';
+
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 html, body{
@@ -34,17 +34,13 @@ html, body{
       height: 50px;
   }
 
-  .container{
-      border: 1px solid transparent;
-  }
-
   #content{
       font-family: 'VT323';
       font-size:23px;
   }
 
   .fas{
-      font-size: 40px;
+      font-size: 25px;
       color: white;
       padding: 5px;
   }
@@ -55,6 +51,24 @@ html, body{
   }
 
   #eevee{
-      margin-left: 85%;
+      margin-left: 65%;
       margin-top: -20%;
+  }
+
+  .center{
+    min-height: 95%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 95vh; /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+
+  .heart{
+    height: 40px;
+    width: 40px;
+  }
+
+  .hearts{
+      margin-left: -40%;
+      margin-top: 10px;
   }
