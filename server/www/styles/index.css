@@ -52,7 +52,7 @@ html, body{
 
 .title{
   font-family: 'Press Start 2P';
-  font-size: 120px;
+  font-size: 12vh;
   line-height: 90%;
 }
 
@@ -105,3 +105,17 @@ a:hover{
   border: 2px solid blueviolet;
 }
 
+.phone-title{
+  font-family: 'Press Start 2P';
+  font-size: 20px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 360px) {
+  .info{
+    display: none;
+  }
+  .phone-info{
+    display: block;
+  }
+}
