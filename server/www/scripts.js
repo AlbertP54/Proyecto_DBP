@@ -1,5 +1,5 @@
 
-total_pokemons = 2;
+total_pokemons = 3;
 
 // function to change pokemon location randomnly 
 $(function () {
@@ -11,6 +11,7 @@ $(function () {
 
         let margin_left = randomInteger(0, 90);
         margin_left = margin_left.toString() + "%";
+        console.log("mt, ml", margin_top, margin_left);
         $(pokemon_id).css('margin-top', margin_top);
         $(pokemon_id).css('margin-left', margin_left);
 
