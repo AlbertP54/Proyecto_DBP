@@ -4,6 +4,8 @@
 
 html, body{
     height: 100%;
+    background-attachment: fixed;
+    background-repeat:repeat;
 }
 
 .parallax {
@@ -15,7 +17,7 @@ html, body{
     width: 100%;
   
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+    background-attachment:fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,14 +70,14 @@ html, body{
   #lolxd{
     width: 350px;
     height: 350px;
-    margin-left: -25%;
-    margin-top: -150%;
+    margin-left: -40%;
+    margin-top: -100%;
 
   }
   
   #eevee{
       width: 350px;
       height: 350px;
-      margin-left: 60%;
+      margin-left: 65%;
       margin-top: -40%;
   }
