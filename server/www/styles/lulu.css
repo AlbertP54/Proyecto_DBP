@@ -1,0 +1,64 @@
+@import '../style.css';
+@import url("https://fonts.gstatic.com");
+
+html, body{
+    height: 100%;
+}
+
+.parallax {
+    background-image: url("../imgs/happypokemon.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+    .backgroundBox{
+        border-radius: 25px;
+        background-color: coral;
+        opacity: 0.8;
+        width: 980px;
+        height: 649px;
+        border: 500px rgb(202, 57, 5);
+        box-sizing: border-box;
+        padding: 30px;
+    }
+
+    .container{
+      border: 1px transparent;
+    }
+
+     #content{
+     font-family: 'Press Start 2P', cursive;
+     font-size:  15px;
+    }
+
+    #h1{
+      font-family: 'Press Start 2P';
+      font-size:  21px;
+      text-align: left;
+      color: black;
+    }
+
+    #h2{
+        font-family: 'Press Start 2P';
+        font-size:  16px;
+        text-align: left;
+        color: black;
+        font-style: italic;
+      }
+
+
+    #br { 
+        display: block;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        margin-left: auto;
+        margin-right: auto;
+      } 
+      #exitBtn{
+        margin-left: 830px;
+        margin-top: -1250px;
+        width: 130px;
+        height: 130px;
+    } 
