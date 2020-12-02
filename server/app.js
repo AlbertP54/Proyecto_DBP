@@ -6,10 +6,13 @@ const about = require('./www/about.json');
 const logger = log4js.getLogger();
 logger.level = 'debug';
 
+const port = process.env.PORT || 4000;
+
 http.createServer((request, response) => {
 
     if (request.url) {
 
+        // .json response for the team members
         if (request.url == '/about') {
             response.writeHead(200, { "Content-Type": "application/json" });
             response.write(JSON.stringify(about));
@@ -23,12 +26,9 @@ http.createServer((request, response) => {
                     response.write("NOT FOUND");
                 } else {
                     logger.info(`${request.method} ${request.url}`);
+
                     if (file.split('.').pop() == 'jpg')
                         response.writeHead(200, { "Content-Type": "image/jpg" });
-                    else if(file.split('.').pop() == 'png')
-                        response.writeHead(200, {"Content-Type": "image/png"});
-                    else if(file.split('.').pop() == 'js')
-                        response.writeHead(200, {"Content-Type": "text/javascript"});
                     else if (file.split('.').pop() == 'css')
                         response.writeHead(200, { "Content-Type": "text/css" });
                     else
@@ -40,4 +40,4 @@ http.createServer((request, response) => {
         }
 
     }
-}).listen(process.env.PORT || 4000); 
+}).listen(port); 
