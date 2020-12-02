@@ -205,3 +205,27 @@ a:hover{
   font-size: 14px;
   transition: all 0.5s ease;
 }
+
+.services{
+  background: #ffa5a7; 
+}
+
+.services-text{
+  font-size: 20px;
+  text-align: center;
+}
+
+.services-border{
+  border: none;
+}
+
+.services-title{
+  width: 100%;
+  height: 7vw;
+  font-size: 2.5vw;
+  font-family: 'Press Start 2P';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
