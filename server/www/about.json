@@ -3,48 +3,22 @@
     "equipo": [
         {
             "name":"Ericka", 
-            "lastName": "Bermúdez",
-            "desc": "Licenciada en Administración de Tecnologías, estudiante de Ciencias de la Computación, llevo 6 años sin tiempo libre",
-            "photo": "imgs/ericka.png",
-            "habilities": [["Python", 70], ["Typescript", 60], ["Java", 50], ["English", 100], ["Japanse", 30], ["Korean", 20], ["French", 30]],
-            "git": "https://github.com/ErickaBermudez",
-            "playing": ["Genshin Impact", "League of Legends"]
+            "lastName": "Bermudez"
         },
         {
             "name":"Marcela", 
-            "lastName": "Barrera",
-            "desc": "Estudiante de Ciencias de la Computacion",
-            "photo": "imgs/marce.jpeg",
-            "habilities": [["Javascript", 60],["C#",50],["Typescript",40], ["English",100]],
-            "git": "https://github.com/marcebarrera",
-            "playing": ["League of Legends", "Zelda: BOTW"]
+            "lastName": "Barrera"
         },
         {
             "name":"Roberto", 
-            "lastName": "Nava",
-            "desc": "Actual estudiante de la carrera de Ciencias de la computacion,y deportista de alto rendimiento",
-            "photo": "imgs/roberto.png",
-            "habilities": [["C/C++",80],["HTML",50],["Java",50],["English",100],["French",25],["Japanese",20],["Martial Arts",100]],
-            "git": "https://github.com/robertonava10",
-            "playing": ["Minecraft"]
+            "lastName": "Nava"
         },
         {
             "name":"Alberto", 
-            "lastName": "Payán",
-            "desc": "Estudiante de ingenieria en Ciencias de la computacion y practicante de piano",
-            "photo": "imgs/alberto.png",
-            "habilities": [["C/C++",80],["C#",40],["Python",40],["Java",60],["English",80],["Piano",75],["Spanish",80]],
-            "git": "https://github.com/AlbertP54",
-            "playing": ["Resident evil 2 remake","Resident evil 3 remake"]
-        },
+            "lastName": "Payan"},
         {
             "name":"Luz de Lourdes", 
-            "lastName": "Olague Ibarrola",
-            "desc": "Estudiante de la carrera de Ciencias de la computación que ama apovechar cualquier oportunidad en la programación para poder crear apps y páginas coloridas y aesthetics",
-            "photo": "imgs/lulu.png",
-            "habilities": [["C/C++",80], ["HTML",80],["Javascript", 60],["Dart/flutter", 60],["Kotlin", 60], ["English", 100], ["French", 60], ["Crying over fictional characters", 10000]],
-            "git": "https://github.com/NixEndy",
-            "playing": ["Dark Souls 3"]
+            "lastName": "Olague Ibarrola"
         }
     ]
 }
