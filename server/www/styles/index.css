@@ -138,21 +138,17 @@ a:hover{
   }
 }
 
-  
-#contactform{
-  background-color: yellow!important;
+#contact{
+  background-color: rgba(254, 236, 164, 1);
 }
 
 .wrapper{
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%,-50%);
   max-width: 350px;
   width: 100%;
   background: #fff;
   padding: 25px;
   border-radius: 5px;
-  box-shadow: 4px 4px 2px rgba(254, 236, 164, 1);
+  box-shadow: 4px 4px 2px rgb(245, 224, 138);
 }
 
 .wrapper h2{
@@ -161,6 +157,7 @@ a:hover{
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #332902;
+  font-family: 'Press Start 2P';
 }
 
 .wrapper .input_field{

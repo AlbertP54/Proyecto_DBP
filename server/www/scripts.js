@@ -1,5 +1,5 @@
 
-total_pokemons = 3;
+total_pokemons = 4;
 
 // function to change pokemon location randomnly 
 $(function () {
