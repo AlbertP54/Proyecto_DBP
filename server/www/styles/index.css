@@ -229,3 +229,18 @@ a:hover{
   align-items: center;
 }
 
+#goodbyeMsg{
+  position: absolute;
+  margin-top: -400px;
+  margin-left: 600px;
+}
+
+#goodbyeMsg span{
+  font-size: 2vw;
+}
+
+#goodbyeMsg p{
+  font-size: 1vw;
+  background-color: white;
+}
+
