@@ -140,9 +140,16 @@ a:hover{
 
 #contact{
   background-color: rgba(254, 236, 164, 1);
+
+}
+
+#esquina{
+  margin-left: 45%;
+  margin-top: -40%;
 }
 
 .wrapper{
+  
   max-width: 350px;
   width: 100%;
   background: #fff;
